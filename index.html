@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Atividades pedagógicas digitais para alfabetização, comunicação e organização de rotinas, pensadas para apoiar professores de AEE e famílias.">
+  <meta name="theme-color" content="#f8f8f4">
+  <title>Acolher & Aprender | Materiais pedagógicos e AEE</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="produtos.js" defer></script>
+  <script src="vendor/qrcode.min.js" defer></script>
+  <script src="pix.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#materiais">Pular para os materiais</a>
+  <div class="announcement"><span class="dot"></span> Coleção de materiais pedagógicos em preparação <span class="announcement-star">✳</span> Educação com acolhimento</div>
+  <header class="header" id="inicio">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Acolher e Aprender, início">
+        <span class="brand-symbol" aria-hidden="true">✳</span>
+        <span class="brand-copy">acolher<span class="brand-amp">&</span>aprender<small>RECURSOS PEDAGÓGICOS</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#materiais">Materiais</a><a href="#como-funciona">Como funciona</a><a href="#sobre">Nossa proposta</a>
+      </nav>
+      <div class="header-actions">
+        <a class="nav-link" href="#materiais">Explorar catálogo <span aria-hidden="true">↗</span></a>
+        <button class="cart-toggle" id="cart-button" type="button" aria-label="Abrir carrinho de compras">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.1 10h11.3l2-7H6M9 20h.01M18 20h.01"/></svg>
+          <span class="cart-count" id="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-icon">✦</span> PARA CADA JEITO DE APRENDER</div>
+        <h1 id="hero-title">Pequenas conquistas.<br><em>Grandes descobertas.</em></h1>
+        <p>Conheça nossa futura coleção de atividades de alfabetização, apoio visual e recursos para o AEE. Estamos preparando materiais para apoiar professores e famílias, respeitando o ritmo de cada criança.</p>
+        <div class="hero-buttons">
+          <a href="#materiais" class="button button-primary">Conhecer os materiais <span aria-hidden="true">↗</span></a>
+          <a href="#como-funciona" class="button button-outline">Como comprar <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-note"><span class="avatar-stack" aria-hidden="true"><i>ABC</i><i>✻</i><i>123</i></span><span>Criado para apoiar práticas pedagógicas inclusivas.</span></div>
+      </div>
+      <div class="hero-stage" aria-label="Ilustração de atividades pedagógicas para imprimir">
+        <div class="hero-orbit hero-orbit-one"></div><div class="hero-orbit hero-orbit-two"></div>
+        <div class="hero-pill pill-one"><span>✦</span> Aprender brincando</div>
+        <div class="hero-pill pill-two"><span>♡</span> Um passo de cada vez</div>
+        <div class="worksheet worksheet-back">
+          <span class="sheet-label">ATIVIDADE · CORES</span><div class="colors-preview"><b></b><b></b><b></b></div>
+          <div class="worksheet-line"></div><div class="worksheet-line short"></div>
+        </div>
+        <div class="worksheet worksheet-front">
+          <div class="sheet-top"><span>MEU CADERNO DE ATIVIDADES</span><span>✳</span></div>
+          <div class="sheet-dots"><i></i><i></i><i></i></div>
+          <p class="sheet-heading">Vamos aprender<br><strong>as letras?</strong></p>
+          <div class="sheet-illustration"><div class="letter-tile tile-a">A</div><div class="letter-tile tile-b">B</div><div class="letter-tile tile-c">C</div></div>
+          <div class="sheet-footer"><span>Aprender também é descobrir!</span><span>☼</span></div>
+        </div>
+        <span class="hero-sun" aria-hidden="true">✳</span>
+      </div>
+    </section>
+
+    <section class="value-strip" aria-label="Diferenciais">
+      <div class="container value-inner">
+        <div><span class="value-icon">◩</span><span><strong>Arquivos digitais</strong><small>Práticos para imprimir</small></span></div>
+        <div><span class="value-icon">✧</span><span><strong>Aprendizagem inclusiva</strong><small>Flexibilidade para adaptar</small></span></div>
+        <div><span class="value-icon">♡</span><span><strong>Feitos com cuidado</strong><small>Para professores e famílias</small></span></div>
+        <div><span class="value-icon">⌁</span><span><strong>Pagamento por Pix</strong><small>QR Code ou copia e cola</small></span></div>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="materiais" aria-labelledby="catalog-title">
+      <div class="container">
+        <div class="section-heading"><div><div class="eyebrow">NOSSO ACERVO ✳</div><h2 id="catalog-title">Materiais que fazem <em>sentido.</em></h2><p>Explore as atividades e encontre recursos para diferentes objetivos pedagógicos.</p></div><span class="catalog-decoration" aria-hidden="true">✳</span></div>
+        <div class="catalog-status"><span class="status-icon" aria-hidden="true">✳</span><div><strong>Catálogo em preparação • Preços de referência</strong><p>Estas são 10 propostas de materiais digitais. As fotos são ilustrativas e não correspondem a arquivos comerciais prontos. Os PDFs precisam ser produzidos ou licenciados antes da abertura das vendas; o pagamento Pix permanece bloqueado nesta etapa.</p></div></div>
+        <div class="toolbar">
+          <div class="filters" id="filters" role="group" aria-label="Filtrar por categoria"></div>
+          <label class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="Buscar atividade..." aria-label="Buscar atividade"></label>
+        </div>
+        <p id="results-count" class="results-count" aria-live="polite"></p>
+        <div class="product-grid" id="product-grid"></div>
+        <div class="empty-results" id="empty-results" hidden>Nenhuma atividade encontrada. Experimente outra busca ou categoria.</div>
+        <div class="catalog-note"><span>✳</span> Preços sugeridos e fotografias ilustrativas (créditos e licenças no arquivo FOTOS-E-LICENCAS.md). Os recursos podem ser adaptados às necessidades de cada estudante. Não substituem avaliações ou planejamentos pedagógicos individualizados.<br><a class="inline-link" href="amostra-gratuita.html" target="_blank" rel="noopener noreferrer">Conheça uma atividade gratuita para imprimir ↗</a></div>
+      </div>
+    </section>
+
+    <section class="how-section" id="como-funciona" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-heading centered"><div class="eyebrow">SIMPLES ASSIM</div><h2 id="how-title">Do catálogo para <em>sua sala de aula.</em></h2><p>Quando os materiais estiverem disponíveis, você poderá escolher seu kit, pagar no aplicativo do banco e receber os arquivos após confirmação.</p></div>
+        <div class="steps">
+          <article><span class="step-number">01</span><div class="step-emoji">☷</div><h3>Escolha seu material</h3><p>Veja os objetivos, a faixa de uso sugerida e adicione ao carrinho.</p></article>
+          <article><span class="step-number">02</span><div class="step-emoji">▦</div><h3>Pague com Pix</h3><p>Abra o QR Code do pedido ou copie o código Pix para o seu banco.</p></article>
+          <article><span class="step-number">03</span><div class="step-emoji">✉</div><h3>Receba após confirmação</h3><p>Entre em contato com o vendedor e receba os arquivos após a confirmação do pagamento.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="sobre">
+      <div class="container about-layout">
+        <div class="about-art" aria-hidden="true"><div class="about-circle"></div><div class="about-paper"><span class="about-stars">✳ ✧ ✳</span><span class="about-word">Cada criança,<br><i>seu caminho.</i></span><span class="about-smile">☺</span></div><span class="about-floating">EDUCAÇÃO COM AFETO</span></div>
+        <div class="about-copy"><div class="eyebrow">POR QUE FAZEMOS</div><h2>Inclusão começa quando <em>a gente olha de perto.</em></h2><p>Não existe uma única forma de aprender. Por isso, esta loja reúne propostas de atividades que podem apoiar intervenções pedagógicas individualizadas, o trabalho no Atendimento Educacional Especializado (AEE) e o cotidiano de famílias.</p><p>Os materiais são recursos de apoio, não receitas prontas: a observação, a escuta e o planejamento do educador continuam sendo essenciais.</p><a href="#materiais" class="inline-link">Encontre um material para sua prática <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="faq-section container" aria-labelledby="faq-title">
+      <div class="section-heading centered"><div class="eyebrow">DÚVIDAS FREQUENTES</div><h2 id="faq-title">Tudo o que você <em>precisa saber.</em></h2></div>
+      <div class="faq-list">
+        <details><summary>Os materiais são físicos ou digitais?<span>+</span></summary><p>As dez opções são propostas de arquivos digitais, ainda em preparação. Os materiais reais serão divulgados com formato, conteúdo e informações de entrega antes de iniciarmos as vendas.</p></details>
+        <details><summary>Como recebo meu arquivo após pagar?<span>+</span></summary><p>Quando a loja iniciar as vendas, a entrega será realizada após a confirmação do pagamento pelo vendedor. Atualmente, os arquivos comerciais não estão disponíveis e o Pix está desativado.</p></details>
+        <details><summary>Como funciona o pagamento por Pix?<span>+</span></summary><p>O Pix ficará disponível após a finalização e liberação dos produtos digitais. Antes disso, o catálogo apresenta apenas valores sugeridos e não recebe pagamentos.</p></details>
+        <details><summary>Os materiais servem para todos os estudantes autistas?<span>+</span></summary><p>Não há um único material que atenda a todos. Professores e familiares devem selecionar e adaptar atividades conforme interesses, perfil, habilidades, acessibilidade e objetivos de cada estudante.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main"><div><a class="brand footer-brand" href="#inicio"><span class="brand-symbol">✳</span><span class="brand-copy">acolher<span class="brand-amp">&</span>aprender<small>RECURSOS PEDAGÓGICOS</small></span></a><p>Recursos com propósito, para caminhos únicos de aprendizagem.</p></div><div><h3>Explore</h3><a href="#materiais">Catálogo</a><a href="#como-funciona">Como comprar</a><a href="#sobre">Nossa proposta</a></div><div><h3>Atendimento</h3><a href="#" id="whatsapp-footer">Conversar pelo WhatsApp ↗</a><a href="mailto:contato@exemplo.com" id="email-footer">Fale por e-mail ↗</a></div></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> <span id="brand-footer">Acolher & Aprender</span>. Todos os direitos reservados.</span><span>Materiais educativos • Catálogo em preparação • Vendas ainda não disponíveis</span></div>
+  </footer>
+
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" hidden>
+    <div class="drawer-header"><div><small>SEUS ESCOLHIDOS</small><h2 id="cart-title">Meu carrinho <span aria-hidden="true">♡</span></h2></div><button class="icon-button" id="close-cart" aria-label="Fechar carrinho" type="button">×</button></div>
+    <div class="cart-list" id="cart-list"></div>
+    <div class="drawer-bottom"><div class="cart-total"><span>Total</span><strong id="cart-total">R$ 0,00</strong></div><p>Pagamento por Pix e entrega após confirmação do vendedor.</p><button class="button button-primary full" id="checkout-cart" type="button">Finalizar com Pix →</button><button class="clear-cart" id="clear-cart" type="button">Esvaziar carrinho</button></div>
+  </aside>
+
+  <section class="payment-modal" id="payment-modal" role="dialog" aria-modal="true" aria-labelledby="payment-title" hidden>
+    <div class="payment-top"><div><small>FINALIZAÇÃO SEGURA NO SEU BANCO</small><h2 id="payment-title">Pagar com Pix <span>✳</span></h2></div><button class="icon-button" id="close-payment" type="button" aria-label="Fechar pagamento">×</button></div>
+    <div class="payment-body">
+      <div class="payment-order"><span id="payment-summary"></span><strong id="payment-amount"></strong></div>
+      <span class="order-number" id="order-number"></span>
+      <div id="pix-ready" hidden>
+        <div class="qr-shell"><div id="qr-code" role="img" aria-label="QR Code do Pix"></div></div>
+        <p class="qr-explainer">Abra o aplicativo do seu banco e escolha <strong>Pix → Ler QR Code</strong>.</p>
+        <label class="pix-copy-label" for="pix-code">Ou utilize Pix copia e cola:</label>
+        <textarea id="pix-code" rows="3" readonly></textarea>
+        <button class="button button-primary full" type="button" id="copy-pix">Copiar código Pix ▢</button>
+        <p class="pix-receiver" id="pix-receiver"></p>
+      </div>
+      <div id="pix-missing" class="pix-warning" hidden><strong>Pagamento ainda não configurado.</strong><p>O responsável pela loja precisa informar uma chave Pix real no arquivo de configuração para habilitar os QR Codes.</p></div>
+      <div id="pix-error" class="pix-warning" hidden></div>
+      <div class="payment-footer-note"><strong>Importante:</strong> confira nome, valor e destinatário no aplicativo do seu banco. O pagamento não é verificado automaticamente neste site.</div>
+      <a class="button button-whatsapp full" id="send-order" href="#" target="_blank" rel="noopener noreferrer">Conversar com vendedor sobre meu pedido ↗</a>
+    </div>
+  </section>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
